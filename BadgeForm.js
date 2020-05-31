@@ -2,8 +2,7 @@ import React from 'react'
 
 import '../assets/styles/components/BadgeForm.css'
 
-const BadgeForm = () => {
-  const { onSubmit } = props
+const BadgeForm = ({ onSubmit }) => {
   return (
     <div className='BadgeForm'>
       <form onSubmit={onSubmit}>
